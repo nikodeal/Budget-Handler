@@ -1,0 +1,81 @@
+body {
+    background: url("https://cdn.wallpapersafari.com/79/73/r4ZOIs.jpg");  
+height: 100%;
+direction: rtl;
+background-repeat: no-repeat;
+background-size: cover;
+}
+header {
+    margin: 30px 0;
+}
+.content {
+    padding:20px;
+}
+.main-content{
+    background-color: rgba(255, 255, 255, 0.685);
+    color: #004e92;;
+    padding: 10px;
+    border-radius: 10px;
+}
+#page-one{
+text-align: right;
+}
+#page-two{
+    display: none;
+    text-align: right;
+}
+.budget p{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.budget p span {
+    font-weight: normal;
+}
+#expenses {
+    margin-bottom: 30px;
+}
+h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    
+    color:#004e92;
+    font-size: 22px;
+    margin-bottom:30px;
+}
+#alert-danger{
+    width: fit-content;
+    margin: .5em;
+    display: none;
+}
+#first-page-btn  {
+background-color: #004e92;
+color: white;
+width: 25%;
+}
+#fp-btn{
+    background-color: #004e92;
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      height: 100vh;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    body {
+      height: 100vh;
+    }
+  }
+  @media only screen and (max-width: 1600px) {
+    body {
+      height: 100vh;
+    }
+  }
