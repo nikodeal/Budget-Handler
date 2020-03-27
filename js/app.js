@@ -60,8 +60,8 @@ pageOneBtn.addEventListener('click', function (e) {
 });
 
 
-const addExpenseForm = () => {
-
+const addExpenseForm = (e) => {
+   e.preventDefault();
    if (expenseName.value === '' || amount.value === '') {
       alertDanger.style.display = "block"
       alertDanger.innerHTML = "השדות ריקים";
