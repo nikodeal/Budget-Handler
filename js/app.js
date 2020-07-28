@@ -29,7 +29,8 @@ class HTML {
       left.innerHTML = `${amount}`
    }
 
-   addExpenseToList(name, amount) {
+   addExpenseToList(name, amount,e) {
+      e.preventDefault()
       const expenseList = document.querySelector('#expenses ul');
       const li = document.createElement('li');
       li.innerHTML = `${name} <span class="badge badge-danger"> ${amount}</span>`;
